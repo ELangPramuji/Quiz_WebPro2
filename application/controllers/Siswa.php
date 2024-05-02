@@ -18,6 +18,6 @@ class Siswa extends CI_Controller {
 			'agama' => $this->input->post('agama'),
 		];
 
-		$this->load->view('cetakSiswa');
+		$this->load->view('cetakSiswa', $data);
 	}
 }

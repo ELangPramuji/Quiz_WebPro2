@@ -4,28 +4,26 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>D Lemas</title>
-	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="<?=base_url('assets/css/style.css');?>">
 </head>
 <body>
 	<div class="form">
 		<form action="<?= base_url('siswa/cetak') ?>" method="post" class="form_siswa">
 			<h1>D-Lemas</h1>
 			<label for="nama">Nama Siswa : </label>
-			<input type="text" name="nama" id="nama">
+			<input type="text" name="nama" id="nama" required>
 			<label for="nis">NIS : </label>
-			<input type="text" name="nis" id="nis">
+			<input type="text" name="nis" id="nis" required>
 			<label for="kelas">Kelas : </label>
-			<input type="text" name="kelas" id="kelas">
+			<input type="text" name="kelas" id="kelas" required>
 			<label for="tanggal">Tanggal Lahir : </label>
-			<input type="date" name="tanggal" id="tanggal">
+			<input type="date" name="tanggal" id="tanggal" required>
 			<label for="alamat">Alamat : </label>
-			<textarea name="alamat" id="alamat" cols="30" rows="5"></textarea>
+			<textarea name="alamat" id="alamat" cols="30" rows="5" required></textarea>
 			<label for="gender">Jenis Kelamin : </label>
 			<div class="gender">
-				<label for="gender_laki">Laki-laki</label>
-				<input type="radio" name="gender" id="gender_laki">
-				<label for="gender_perempuan">Perempuan</label>
-				<input type="radio" name="gender" id="gender_perempuan">
+				<input type="radio" name="gender" id="gender_laki" value="Laki-laki"> Laki-laki
+				<input type="radio" name="gender" id="gender_perempuan" value="Perempuan"> Perempuan
 			</div>
 			<div class="options">
 				<label for="agama">Agama : </label>
