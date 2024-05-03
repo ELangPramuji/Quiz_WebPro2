@@ -3,16 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>D Lemas</title>
-  <link rel="stylesheet" href="<?= base_url('assets/css/siswa.css'); ?>"">
+	<title>FORM CETAK SISWA</title>
+  <link rel="stylesheet" href="<?= base_url('assets/css/siswa.css'); ?>">
 </head>
 <body>
   <div class="container">
     <div class="siswa">
-      <h1 style="text-align: center;">D-Lemas</h1>
-      <center>
-        <img src="<?= base_url('assets/images/talk.jpg');?>" width="500px" height="300px" alt="gambar">
-      </center>
+      <h1 style="text-align: center;">Form Cetak Siswa</h1>
       <h3>Nama          : <?= $nama; ?> </h3>
       <h3>NIS           : <?= $nis; ?> </h3>
       <h3>Kelas         : <?= $kelas; ?> </h3>

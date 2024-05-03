@@ -3,13 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>D Lemas</title>
+	<title>FORM SISWA</title>
 	<link rel="stylesheet" href="<?=base_url('assets/css/style.css');?>">
 </head>
 <body>
 	<div class="form">
 		<form action="<?= base_url('siswa/cetak') ?>" method="post" class="form_siswa">
-			<h1>D-Lemas</h1>
+			<h1>Form Siswa</h1>
 			<label for="nama">Nama Siswa : </label>
 			<input type="text" name="nama" id="nama" required>
 			<label for="nis">NIS : </label>
