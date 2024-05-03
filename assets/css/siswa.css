@@ -16,7 +16,7 @@ body {
 .siswa {
 	width: 50%;
 	background-color: rgb(139, 0, 253);
-	padding: 0 90px 20px 80px;
+	padding: 0 300px 20px 300px;
 	display: flex;
 	flex-direction: column;
 	border: 2px solid black;

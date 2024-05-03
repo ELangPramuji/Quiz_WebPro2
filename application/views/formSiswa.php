@@ -37,7 +37,7 @@
 					<option value="khonghucu">Khonghucu</option>
 				</select>
 			</div>
-			<input type="submit" value="submit">
+			<button style="color: white; text-decoration: none; width: 80px; height: 30px; background-color: black; text-align: center; line-height: 30px; border-radius: 10px">Submit</button>
 		</form>
 	</div>
 </body>

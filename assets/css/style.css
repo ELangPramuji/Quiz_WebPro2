@@ -14,7 +14,7 @@ body {
 
 .form_siswa {
 	background-color: rgb(139, 0, 253);
-	padding: 0 100px 20px 100px;
+	padding: 0 400px 20px 400px;
 	display: flex;
 	flex-direction: column;
 	border: 2px solid black;
@@ -32,8 +32,18 @@ body {
 
 .form_siswa textarea {
 	margin-bottom: 20px;
+	width: 350px;
+	height: 50px;
 }
 
 .form_siswa .options {
 	margin-bottom: 20px;
+}
+
+.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+	width: 80px;
 }
